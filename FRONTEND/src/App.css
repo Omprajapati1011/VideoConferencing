@@ -1,0 +1,136 @@
+.landingPageContainer {
+  width: 100vw;
+  height: 100vh;
+  background: url("/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 1.2rem;
+   padding-block: 1.6rem;
+   align-items: center;
+}
+
+.Navbar h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.navList{
+  display: flex;
+  gap : 1.6rem;
+}
+
+.navList-ul{
+  display: flex;
+  gap :25px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.LoginButton{
+  
+}
+
+.LoginButton:hover {
+  
+}
+
+.landingMainContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh; 
+   padding-inline: 3rem;
+   padding-block: 1.6rem;
+}
+
+.leftMain{
+   display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+   
+}
+
+
+.leftMain h1{
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.leftMain p{
+    font-size: 1.7rem;
+}
+
+
+.rightMain img{
+   width: auto;
+   height: 70vh;
+}
+
+.GetStartedButton{
+  display: inline-block;
+  width: fit-content;
+  padding: 1rem;
+  background-color: #D97500;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  margin-top: 1.4rem;
+  font-weight: 500;
+}
+
+.GetStartedButton:hover {
+  background-color: #0056b3;
+}
+
+
+.NavBarHome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    text-align: center;
+}
+
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+  text-align: center;
+
+}
+.meetContainer {
+  display: flex;
+  padding-inline: 20px;
+  height: 80vh;
+  gap: 10vw;
+  justify-content: center;
+}
+
+
+
+.leftPanel {
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.rightPanel {
+  display: flex;
+  align-items: center;
+}
+
+.rightPanel > img {
+  width: 30vw;
+  height: auto;
+  border-radius: 20px;
+}
